@@ -4,8 +4,20 @@ padding: 0;
 background: beige;
 }
 
+.blink_me {
+  animation: blinker 3s linear infinite;
+  color: red;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 h1 {
 text-align: center;
+font-family: 'MonteCarlo', cursive;
 margin-bottom: 5vh;
 }
 
