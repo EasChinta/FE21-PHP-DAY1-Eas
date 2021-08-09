@@ -81,6 +81,7 @@ echo '<div class="entire container">
             </div>
             <div class="card-footer">
               <small class="text-dark">' . $cars["Economy"]["Price"] . '€ per day <br>Location:' . $cars["Economy"]["Location"] . '</small>
+              <button type="button" class="btn btn-outline-success">Book now</button>
             </div>
           </div>
         </div>
@@ -93,6 +94,7 @@ echo '<div class="entire container">
             </div>
             <div class="card-footer">
               <small class="text-dark">' . $cars["Middle"]["Price"] . '€ per day<br>Location:' . $cars["Middle"]["Location"] . '</small>
+              <button type="button" class="btn btn-outline-success">Book now</button>
             </div>
           </div>
         </div>
@@ -105,6 +107,7 @@ echo '<div class="entire container">
             </div>
             <div class="card-footer">
               <small class="text-dark">' . $cars["Premium"]["Price"] . '€ per day<br>Location:' . $cars["Premium"]["Location"] . '</small>
+              <button type="button" class="btn btn-outline-success">Book now</button>
             </div>
           </div>
         </div>
@@ -117,6 +120,7 @@ echo '<div class="entire container">
               </div>
               <div class="card-footer">
                 <small class="text-dark">' . $cars["SuperCars"]["Price"] . '€ per day<br>Location:' . $cars["SuperCars"]["Location"] . '</small>
+                <button type="button" class="btn btn-outline-success">Book now</button>
               </div>
             </div>
           </div>
